@@ -210,9 +210,7 @@ if(isset($_POST['fname'])){
                 $('#url').addClass('ErrorField');
                 return false;
             }
-
         }
-
         function teamval() {
             var team = document.getElementById("teamtype").value;
             // alert (team);
@@ -228,7 +226,6 @@ if(isset($_POST['fname'])){
                 return true;
             }
         }
-
         function playersval() {
             var players = document.getElementById("players").value;
             if (players == '') {
@@ -292,10 +289,7 @@ if(isset($_POST['fname'])){
                 $('#image').removeClass('ErrorField');
                 return true;
             }
-
         }
-
     </script>
 </body>
-
 </html>
